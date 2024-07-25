@@ -7,7 +7,7 @@
         <section id="intro" class="flex flex-col items-center justify-center flex-grow text-center px-4">
             <h2 class="text-5xl font-bold mb-4">We're betterwork <span class="text-violet-400">AI</span></h2>
             <p class="text-2xl text-blue-400 mb-8" style="padding-top:12px ;">
-                Building web tools because <span class="text-violet-400">'404: Not Found'</span> is never an option.
+                Building web tools because <span class="text-violet-400">'404: Not Found'</span> is never an option!
             </p>
             
             <div class="w-full max-w-md" style="padding-top:20px; padding-bottom:80px ;">
