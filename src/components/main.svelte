@@ -10,7 +10,7 @@
             <source src="./retro.mp4" type="video/mp4"/>
         </video>
         <section id="intro" class="flex flex-col items-center justify-center flex-grow text-center px-4">
-            <h2 class="text-5xl font-bold mb-4">We're better|{base}|work <span class="text-violet-400">AI</span></h2>
+            <h2 class="text-5xl font-bold mb-4">We're better| {base} |work <span class="text-violet-400">AI</span></h2>
             <p class="text-2xl text-blue-400 mb-8" style="padding-top:12px ;">
                 Building web tools because <span class="text-violet-400">'404: Not Found'</span> is never an option.
             </p>
