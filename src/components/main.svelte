@@ -6,8 +6,8 @@
 <main class="flex flex-col min-h-full bg-gray-1000 text-white" style="padding-top:30px ;">
     <section class="relative flex h-[100vh] shrink-0 flex-col items-center justify-center">
         <video class="absolute -z-10 w-full h-full object-cover"muted autoplay loop playsinline disablepictureinpicture>
-            <source src="/betterwork-ai/retro.webm" type="video/webm"/>
-            <source src="/betterwork-ai/retro.mp4" type="video/mp4"/>
+            <source src="./retro.webm" type="video/webm"/>
+            <source src="./retro.mp4" type="video/mp4"/>
         </video>
         <section id="intro" class="flex flex-col items-center justify-center flex-grow text-center px-4">
             <h2 class="text-5xl font-bold mb-4">We're better|{base}|work <span class="text-violet-400">AI</span></h2>
