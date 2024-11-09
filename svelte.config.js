@@ -1,18 +1,11 @@
-import adapter from "@sveltejs/adapter-static";
+import vercel from "@sveltejs/adapter-vercel";
 import { vitePreprocess } from "@sveltejs/vite-plugin-svelte";
 
 const config = {
     kit: {
-        adapter: adapter({
-            pages: "build",
-            assets: "build",
-            fallback: null,
-        }),
+        adapter: vercel(),  // Use adapter-vercel instead of adapter-static
         paths: {
-            // base: process.env.NODE_ENV === "production" ? "/betterwork-ai" : "",
-            // base: "/betterwork-ai",
-            // base: process.argv.includes("dev") ? "" : process.env.BASE_PATH,
-            // relative: false,
+            // You can configure base paths if needed for specific deployment scenarios
         },
     },
     preprocess: vitePreprocess(),
