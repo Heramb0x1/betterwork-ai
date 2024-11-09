@@ -1,38 +1,28 @@
-# create-svelte
+# ✦ Ahoy builders!
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+**Betterwork.ai** has evolved from a long-held idea into a full-fledged solution for developers, enhancing productivity and streamlining workflows with AI-powered dev tools.
 
-## Creating a project
+### 🚀 Boost Your Productivity
+Encountering online challenges daily? Our tools are designed to supercharge your workflow, empowering developers everywhere to achieve more in less time. Ready to experience the future of productivity? **Join the waitlist and be part of the next evolution in development!**
 
-If you're seeing this, you've probably already done this step. Congrats!
+>[🔗 Join the Waitlist Here](https://dub.sh/betterwork-ai)
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+The journey has begun, but the adventure is just getting started. Be a part of Betterwork.ai’s journey and witness the power of innovation!
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+---
 
-## Developing
+### 🌐 Connect With Us
+Stay updated and join the conversation on our social platforms:
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+- **Betterwork.ai 𝕏 (Twitter)**: [@betterworkai](https://x.com/betterworkai)
+- **Betterwork.ai LinkedIn**: [Betterwork.ai LinkedIn](https://linkedin.com/company/betterwork-ai)
+- **Instagram (Heramb)**: [@heramb.0x1](https://instagram.com/heramb.0x1)
+- **𝕏 (Twitter) (Heramb)**: [@heramb_0x1](https://x.com/heramb_0x1)
+- **LinkedIn (Heramb)**: [Heramb Salunkhe](https://linkedin.com/in/heramb-salunkhe)
 
-```bash
-npm run dev
+### 🔥 Ready to Revolutionize Your Work Ethic?
+With Betterwork.ai, productivity isn’t just a goal—it’s a journey. Let’s create the future of work, together.
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+---
 
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+> *The journey is complete, but the adventure is just beginning. Join me in building the future with Betterwork.ai!*
