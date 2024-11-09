@@ -51,6 +51,7 @@
             <a target="_blank" href="https://x.com/betterworkAI" class="relative z-9"><img class="" src="./X-twitter-logo.png" alt="𝕏" height="20px" width="20px"/></a>
         </button>
         
+        
         <button href="https://www.linkedin.com/company/betterwork-ai/" style="margin-left:15px;" target="_blank" class="blueShadow relative overflow-hidden px-5 py-2 group rounded-2xl bg-violet-950 text-white">
         <div class="absolute top-0 right-full w-full h-full bg-violet-700 opacity-25 group-hover:translate-x-full z-0 duration-200"/>
             <a target="_blank" href="https://www.linkedin.com/company/betterwork-ai/" class="relative z-9">

@@ -4,7 +4,7 @@
     const videoElement = event.target as HTMLVideoElement;
     videoElement.playbackRate = 2;
     };
-  </script>
+</script>
 <main class="flex flex-col min-h-full bg-gray-1000 text-white" style="padding-top:30px ;">
     <section class="relative flex h-[100vh] shrink-0 flex-col items-center justify-center">
         <video class="absolute -z-10 w-full h-full object-cover rounded-3xl"muted autoplay loop preload="true" disablepictureinpicture on:loadstart={handleLoadStart}>
