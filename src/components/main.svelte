@@ -12,7 +12,7 @@
             <source src="./retro.mp4" type="video/mp4"/>
         </video>
         <section id="intro" class="flex flex-col items-center justify-center text-center px-4 backdrop-blur-sm rounded-3xl py-10">
-            <h2 class="text-5xl font-bold mb-4 tracking-wide">We're betterwork.<span class="text-violet-400">AI</span></h2>
+            <h2 class="text-5xl font-bold mb-4 tracking-wide">We're betterwork.<span class="text-violet-400">ai</span></h2>
             <p class="text-2xl text-blue-400 mb-8 tracking-widest" style="padding-top:12px ;">
                 Building web tools because <span class="text-violet-400 bg-slate-700 bg-opacity-50 rounded-lg p-1"><code class="tracking-wide">404: Not Found</code></span> is never an option.
             </p>
