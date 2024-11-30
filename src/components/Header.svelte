@@ -2,7 +2,11 @@
     export let y;
 
     export let tabs = [
-        { name: "Home", link: "#Home" },
+        { name: "Home", link: "#Home",
+        name: "About", link: "#About", 
+        name: "Blog", link: "#Blog", 
+        name: "Social", link: "#Social" 
+        },
     ];
 
     function smoothScroll(node) {
@@ -58,6 +62,12 @@
                 <img class="" src="./linkedin-logo.png" alt="in" height="20px" width="20px"/>
             </a>
         </button>
+        <button>
+            <a href="https://www.producthunt.com/posts/open-in-sci-hub?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-open&#0045;in&#0045;sci&#0045;hub" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=662402&theme=light" alt="Open&#0045;in&#0045;Sci&#0045;Hub - Access&#0032;Research&#0032;Papers&#0032;Instantly&#0032;with&#0032;a&#0032;Hotkey&#0033; | Product Hunt" style="width: 150px; height: 40px; padding-left:12px;" width="250" height="54" /></a>
+        </button>
+
+
+
     </div>
 </header>
 
