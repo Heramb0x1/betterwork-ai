@@ -47,7 +47,7 @@
             <div class="w-full max-w-md pt-5 pb-5">
                 <form class="flex flex-col items-center gap-4">
                     <div>
-                        <a href="https://forms.gle/MzbAwGPbGgKunPEZ8" target="_blank" class="button-link block w-full text-center px-12 py-2   bg-transparent border-2 border-blue-400 text-blue-400 rounded-full hover:bg-blue-400 hover:text-white transition-colors duration-300 relative ">
+                        <a href="https://tally.so/r/mZPY4y" target="_blank" class="button-link block w-full text-center px-12 py-2   bg-transparent border-2 border-blue-400 text-blue-400 rounded-full hover:bg-blue-400 hover:text-white transition-colors duration-300 relative ">
                             Join Waitlist
                             <span class="arrow-hover inline-block ml-2">
                                 →
