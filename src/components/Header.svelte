@@ -49,7 +49,7 @@
         <a
             href="https://x.com/betterworkAI"
             target="_blank"
-            class="blueShadow px-4 py-2 rounded-2xl bg-violet-950 text-white flex items-center justify-center"
+            class="blueShadow px-4 py-2 rounded-2xl bg-violet-400 text-white flex items-center justify-center"
         >
             <img src="/X-twitter-logo.png" alt="𝕏" class="h-5 w-5" />
         </a>
@@ -57,7 +57,7 @@
         <a
             href="https://www.linkedin.com/company/betterwork-ai/"
             target="_blank"
-            class="blueShadow px-4 py-2 rounded-2xl bg-violet-950 text-white flex items-center justify-center"
+            class="blueShadow px-4 py-2 rounded-2xl bg-violet-400 text-white flex items-center justify-center"
         >
             <img src="/linkedin-logo.png" alt="in" class="h-5 w-5" />
         </a>
@@ -107,14 +107,14 @@
                 <a
                     href="https://x.com/betterworkAI"
                     target="_blank"
-                    class="blueShadow px-4 py-2 rounded-2xl bg-violet-950"
+                    class="blueShadow px-4 py-2 rounded-2xl bg-violet-400"
                 >
                     <img src="/X-twitter-logo.png" alt="𝕏" class="h-5 w-5" />
                 </a>
                 <a
                     href="https://www.linkedin.com/company/betterwork-ai/"
                     target="_blank"
-                    class="blueShadow px-4 py-2 rounded-2xl bg-violet-950"
+                    class="blueShadow px-4 py-2 rounded-2xl bg-violet-400"
                 >
                     <img src="/linkedin-logo.png" alt="in" class="h-5 w-5" />
                 </a>
