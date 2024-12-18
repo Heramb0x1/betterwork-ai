@@ -1,19 +1,8 @@
-<script lang="ts">
-    let handleLoadStart = (event: Event) => {
-    //   console.log('Video load started', event);
-    const videoElement = event.target as HTMLVideoElement;
-    videoElement.playbackRate = 2;
-    };
-</script>
 <main class="flex flex-col min-h-full bg-gray-1000 text-white" style="padding-top:30px ;">
     <section class="relative flex h-[100vh] shrink-0 flex-col items-center justify-center">
-        <video class="absolute -z-10 w-full h-full object-cover rounded-3xl"muted autoplay loop preload="true" disablepictureinpicture on:loadstart={handleLoadStart}>
-            <source src="./retro.webm" type="video/webm"/>
-            <source src="./retro.mp4" type="video/mp4"/>
-        </video>
         <section id="intro" class="flex flex-col items-center justify-center text-center px-4 pt-0 backdrop-blur-sm rounded-3xl py-10">
             <div style=" padding-bottom: 48px;">
-                <a href="https://git.new/open-in-sci-hub" 
+                <a href="https://microsoftedge.microsoft.com/addons/detail/egadimjlhhanibmneobhgcpoemmdgmco" 
                 target="_blank" 
                 class="group relative inline-flex items-center justify-start overflow-hidden rounded bg-indigo-50 py-3 pl-6 pr-16 font-semibold text-indigo-600 transition-all duration-150 ease-in-out hover:pl-16 hover:pr-6">
                 <span class="absolute bottom-0 left-0 h-1 w-full bg-indigo-600 transition-all duration-150 ease-in-out group-hover:h-full"></span>
@@ -39,8 +28,8 @@
 
 
 
-            <h2 class="text-5xl font-bold mb-4 tracking-wide pt-14">We're betterwork.<span class="text-violet-400">AI</span></h2>
-            <p class="text-2xl text-blue-400 mb-8 tracking-widest" style="padding-top:12px ;">
+            <h2 class="text-5xl font-bold manrope tracking-tighter font-sans mb-4 pt-14">We're betterwork.<span class="text-violet-400 font-bold manrope text-5xl tracking-tighter font-sans">ai</span></h2>
+            <p class=" text-blue-400 mb-8 manrope text-2xl  font-sans" style="padding-top:12px ;">
                 Building web tools because <span class="text-violet-400 bg-slate-700 bg-opacity-50 rounded-lg p-1"><code class="tracking-wide">404: Not Found</code></span> is never an option.
             </p>
             
