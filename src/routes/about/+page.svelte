@@ -40,7 +40,7 @@
             />
         </div>
         <h2 class="font-semibold text-lg mt-2">Heramb Salunkhe</h2>
-        <h3 class="text-muted-foreground">Founder & CEO</h3>
+        <h3 class="text-muted-foreground">Founding Member</h3>
         <div class="flex items-center gap-1 mt-1">
             <a
                 href="https://twitter.com/heramb0x1"
@@ -80,7 +80,7 @@
             />
         </div>
         <h2 class="font-semibold text-lg mt-2">Pankaj Pawar</h2>
-        <h3 class="text-muted-foreground">Co-Founder</h3>
+        <h3 class="text-muted-foreground">Founding Member</h3>
         <div class="flex items-center gap-1 mt-1">
             <a
                 href="https://twitter.com/PankajRamPawar"
