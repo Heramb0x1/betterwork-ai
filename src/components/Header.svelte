@@ -70,49 +70,14 @@
 {#if isMenuOpen}
     <div class="md:hidden fixed top-[72px] left-0 right-0 bg-slate-950 border-b border-violet-950 z-50">
         <nav class="flex flex-col p-4 gap-4 max-h-[calc(100vh-72px)] overflow-y-auto">
-            <a href="/about" class="px-4 text-slate-500 hover:text-gray-300">About</a>
-            <a href="/blogs" class="px-4 text-slate-500 hover:text-gray-300">Blogs/Guides</a>
-            <a href="/contact" class="px-4 text-slate-500 hover:text-gray-300">Contact Us</a>
-            
-            <div class="flex flex-col gap-4 pt-4">
-                <div class="flex gap-4">
-                    <a href="https://x.com/betterworkAI" 
-                        target="_blank"
-                        class="blueShadow px-4 py-2 rounded-2xl text-slate-200">
-                        <img src="/X-twitter-logo.png" alt="𝕏" class="h-5 w-5" />
-                    </a>
-                    <a href="https://www.linkedin.com/company/betterwork-ai/"
-                        target="_blank"
-                        class="blueShadow px-4 py-2 rounded-2xl text-slate-200">
-                        <img src="/linkedin-logo.png" alt="in" class="h-5 w-5" />
-                    </a>
-                </div>
-            </div>
+            <a href="/about" class="px-4 pb-2 text-xl text-slate-300 hover:text-gray-100">About</a>
+            <a href="/blogs" class="px-4 pb-2 text-xl text-slate-300 hover:text-gray-100">Blogs</a>
+            <a href="/contact" class="px-4 pb-2 text-xl text-slate-300 hover:text-gray-100">Contact Us</a>
         </nav>
     </div>
 {/if}
 <style>
     .blueShadow {
         box-shadow: 0 0 15px rgba(56, 189, 248, 0.3);
-    }
-    ::view-transition-group(root) {
-        animation-timing-function: var(--expo-in);
-    }
-
-    ::view-transition-new(root) {
-        mask: url('https://media1.tenor.com/m/MjcR3XE6KqkAAAAC/yajirobe-kid-goku.gif') center / 0 no-repeat;
-        animation: scale 3s;
-    }
-
-    ::view-transition-old(root),
-    .dark::view-transition-old(root) {
-        animation: scale 3s;
-    }
-
-    @keyframes scale {
-        0% { mask-size: 0; }
-        10% { mask-size: 50vmax; }
-        90% { mask-size: 50vmax; }
-        100% { mask-size: 2000vmax; }
     }
 </style>
