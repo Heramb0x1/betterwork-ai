@@ -3,6 +3,10 @@
     let isMenuOpen = false;
     const toggleMenu = () => (isMenuOpen = !isMenuOpen);
     let isDark = false;
+
+    const closeMenu = () => {
+        isMenuOpen = false;
+    };
     
     function switchTheme() {
         isDark = !isDark;
@@ -64,6 +68,15 @@
             {/if}
         </svg>
     </button>
+    {#if isMenuOpen}
+    <div class="md:hidden fixed top-[72px] left-0 right-0 bg-slate-950 border-b border-violet-950 z-50">
+        <nav class="flex flex-col p-4 gap-4 max-h-[calc(100vh-72px)] overflow-y-auto">
+            <a href="/about" on:click={closeMenu} class="px-4 pb-2 text-xl text-slate-300 hover:text-gray-100">About</a>
+            <a href="/blogs" on:click={closeMenu} class="px-4 pb-2 text-xl text-slate-300 hover:text-gray-100">Blogs</a>
+            <a href="/contact" on:click={closeMenu} class="px-4 pb-2 text-xl text-slate-300 hover:text-gray-100">Contact Us</a>
+        </nav>
+    </div>
+{/if}
 </header>
 
 <!-- Mobile Menu -->
