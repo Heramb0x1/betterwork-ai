@@ -7,24 +7,11 @@
     const closeMenu = () => {
         isMenuOpen = false;
     };
-    
-    function switchTheme() {
-        isDark = !isDark;
-        document.documentElement.classList.toggle('dark');
-    }
-    
-    function handleThemeToggle() {
-        if (!document.startViewTransition) {
-            switchTheme();
-            return;
-        }
-        document.startViewTransition(() => switchTheme());
-    }
 </script>
 <header
     class={"sticky z-[10] top-0 duration-200 px-6 flex items-center justify-around" +
         (y > 0 ? " py-4" : " py-6")}
-    style="background-color: rgba(0, 0, 0, 0); border-bottom: 2px dashed #323232;"
+    style="background-color: rgba(0, 0, 0, 0.1); backdrop-filter: blur(5px); border-bottom: 2px dashed #323232;"
     >
     <div id="trademark" style="padding-right: 12px;">
         <a href="/">

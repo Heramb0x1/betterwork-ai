@@ -4,7 +4,10 @@
 
 <div class="w-full min-h-screen bg-[var(--bg-hero)]">
     <div class="w-full max-w-5xl mx-auto px-3 md:px-2">
-        <h1 class="head-text text-5xl mt-12 md:mt-16 lg:mt-24 text-white sm:text-5xl font-bold mb-4">Contact Form</h1>
+        <p class="text-2xl mt-12 md:mt-16 lg:mt-24 py-3 text-white sm:text-2xl mb-4">
+            Have a question, feedback, or a unique idea you’d like to share? <br>   
+            Simply fill out the form below, and we’ll get back to you as soon as possible.
+        </p>
         <form action="https://api.web3forms.com/submit" method="POST">
             <div class="p-2 w-full">
                 <div class="relative">
@@ -44,7 +47,7 @@
                     ></textarea>
                 </div>
             </div>
-            <div class="p-2 w-full mt-2 md:mt-6 lg:mt-2">
+            <div class="p-2 w-full mt-2 md:mt-6 py-4 lg:mt-2">
                 <div>
                     <button type="submit"
                         class="flex text-white  bg-gray-900 border-0 py-3 px-6 focus:outline-none hover:bg-blue-900 rounded text-xl font-bold shadow-lg mx-0 flex-col text-center">
@@ -62,13 +65,6 @@
     </div>
 
 <style>
-    .head-text {
-    font-family: "League Spartan", serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    color: #fff;
-}
-
     .content {
     font-family: "League Spartan", serif;
     font-optical-sizing: auto;

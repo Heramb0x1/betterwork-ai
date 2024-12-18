@@ -29,7 +29,7 @@
 
 
             <h2 class="text-5xl font-bold manrope tracking-tighter font-sans mb-4 pt-14">We're betterwork.<span class="text-violet-400 font-bold manrope text-5xl tracking-tighter font-sans">ai</span></h2>
-            <p class=" text-blue-400 mb-8 manrope text-2xl  font-sans" style="padding-top:12px ;">
+            <p class=" text-sky-300 mb-8 manrope text-2xl  font-sans" style="padding-top:12px ;">
                 Building web tools because <span class="text-violet-400 bg-slate-700 bg-opacity-50 rounded-lg p-1"><code class="tracking-wide">404: Not Found</code></span> is never an option.
             </p>
             
