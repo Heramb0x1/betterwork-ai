@@ -16,7 +16,7 @@
         <section id="intro" class="flex flex-col items-center justify-center text-center px-4 pt-0 backdrop-blur-sm rounded-3xl py-48">
             <div class="max-w-2xl px-7 pt-24 mx-auto text-center">
                 <h2 class="text-base font-semibold text-pink-300 tracking-wide uppercase">
-                    Automate the Grind, Elevate the Results
+                    <span class="px-1">Automate the Grind</span> Elevate the Results
                 </h2> 
                 <p class="mt-2 text-4xl font-extrabold text-white sm:text-5xl sm:tracking-tight lg:text-6xl">
                     10X Your Efficiency & Secure Recognition with 
@@ -83,7 +83,7 @@
 
 
             <div id="features" class="grid md:grid-cols-2 lg:grid-cols-3 gap-5 px-20 pt-84 py-44">
-                <h1  class="underline decoration-[#c8ff61] decoration-double decoration-[2px]  underline-offset-[5px] head-text text-5xl text-slate-200 sm:text-5xl font-bold mb-4">What We Provide</h1>
+                <h1  class="underline decoration-[#c8ff61] decoration-double decoration-[2px]  underline-offset-[5px] head-text text-6xl text-slate-200 sm:text-6xl font-bold mb-4">What We Provide</h1>
                 <div class="p-4 bg-black shadow border rounded-[10px]">
                         <button class="p-2 bg-[#F5F8FF] rounded-[10px] cursor-default">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
