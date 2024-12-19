@@ -83,7 +83,7 @@
 
 
             <div id="features" class="grid md:grid-cols-2 lg:grid-cols-3 gap-5 px-20 pt-84 py-44">
-                <h1  class="underline decoration-[#78C00C] decoration-[wavy decoration-[5px]  underline-offset-[16px] head-text text-5xl text-slate-200 sm:text-5xl font-bold mb-4">What We Provide</h1>
+                <h1  class="underline decoration-[#c8ff61] decoration-double decoration-[2px]  underline-offset-[5px] head-text text-5xl text-slate-200 sm:text-5xl font-bold mb-4">What We Provide</h1>
                 <div class="p-4 bg-black shadow border rounded-[10px]">
                         <button class="p-2 bg-[#F5F8FF] rounded-[10px] cursor-default">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -151,7 +151,7 @@
                 
                             <p class="font-[Inter] text-lg text-[#ffffff] my-5">Innovate Together!</p>
                 
-                            <p class="font-[Inter] text-sm text-[#8987A1] font-[400]">Share your vision, and we’ll help you bring 
+                            <p class="font-[Inter] text-sm text-[#8987A1] font-[400]"><a href="/contact" class="underline decoration-[#ff8861] decoration-wavy decoration-[2px]  underline-offset-[3px] hover:text-white">Share your vision</a>, and we’ll help you bring 
                                 it to life with the support of betterwork.ai tools.</p>
                 
                         </div>
