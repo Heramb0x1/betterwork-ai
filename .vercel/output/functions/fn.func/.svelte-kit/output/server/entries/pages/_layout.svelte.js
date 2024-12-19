@@ -1,6 +1,7 @@
-import { c as create_ssr_component, e as escape, b as null_to_empty, d as add_attribute, v as validate_component } from "../../chunks/ssr.js";
+import { c as create_ssr_component, b as null_to_empty, v as validate_component } from "../../chunks/ssr.js";
+import { e as escape } from "../../chunks/client.js";
 const Footer = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return ``;
+  return `<footer class="w-full mt-auto py-4" data-svelte-h="svelte-u5waac"><div class="container mx-auto px-4"><div class="flex items-center justify-between"><div class="text-white">© Copyright 2024 betterwork.ai</div> <div class="flex items-center gap-6"><a href="https://www.buymeacoffee.com/heramb" target="_blank" class="text-slate-600">Support Us</a> <a href="/contact" class="text-slate-600">Contact Us</a> <a href="https://twitter.com/intent/follow?screen_name=betterworkAI" target="_blank" class="text-slate-200"><img src="/X-twitter-logo.png" alt="𝕏" class="h-5 w-5"></a> <a href="https://www.linkedin.com/company/betterwork-ai/" target="_blank" class="text-slate-200"><img src="/linkedin-logo.png" alt="in" class="h-5 w-5"></a></div></div></div></footer>`;
 });
 const css = {
   code: ".blueShadow.svelte-3dm5bt{box-shadow:0 0 15px rgba(56, 189, 248, 0.3)}",
@@ -14,10 +15,7 @@ const Header = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 });
 const Layout = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let y;
-  return `<div class="relative flex flex-col max-w-[1400px] mx-auto w-full text-sm sm:text-base min-h-screen"><div${add_attribute(
-    "class",
-    "fixed bottom-0 w-full duration-200 flex p-10 z-[10]pointer-events-none opacity-0"
-  )}></div> ${validate_component(Header, "Header").$$render($$result, { y }, {}, {})} ${slots.default ? slots.default({}) : ``} ${validate_component(Footer, "Footer").$$render($$result, {}, {}, {})}</div> `;
+  return `<div class="relative flex flex-col max-w-[1400px] mx-auto w-full text-sm sm:text-base min-h-screen">${validate_component(Header, "Header").$$render($$result, { y }, {}, {})} <main class="flex-grow">${slots.default ? slots.default({}) : ``}</main> ${validate_component(Footer, "Footer").$$render($$result, {}, {}, {})}</div> `;
 });
 export {
   Layout as default

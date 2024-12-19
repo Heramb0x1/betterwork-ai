@@ -40,22 +40,6 @@ function setContext(key, context) {
 function getContext(key) {
   return get_current_component().$$.context.get(key);
 }
-const ATTR_REGEX = /[&"<]/g;
-const CONTENT_REGEX = /[&<]/g;
-function escape(value, is_attr = false) {
-  const str = String(value);
-  const pattern = is_attr ? ATTR_REGEX : CONTENT_REGEX;
-  pattern.lastIndex = 0;
-  let escaped = "";
-  let last = 0;
-  while (pattern.test(str)) {
-    const i = pattern.lastIndex - 1;
-    const ch = str[i];
-    escaped += str.substring(last, i) + (ch === "&" ? "&amp;" : ch === '"' ? "&quot;" : "&lt;");
-    last = i + 1;
-  }
-  return escaped + str.substring(last);
-}
 const missing_component = {
   $$render: () => ""
 };
@@ -105,17 +89,11 @@ function create_ssr_component(fn) {
     $$render
   };
 }
-function add_attribute(name, value, boolean) {
-  const assignment = `="${escape(value, true)}"`;
-  return ` ${name}${assignment}`;
-}
 export {
   setContext as a,
   null_to_empty as b,
   create_ssr_component as c,
-  add_attribute as d,
-  escape as e,
-  subscribe as f,
+  subscribe as d,
   getContext as g,
   missing_component as m,
   noop as n,

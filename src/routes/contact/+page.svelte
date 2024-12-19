@@ -5,7 +5,7 @@
 <div class="w-full min-h-screen bg-[var(--bg-hero)]">
     <div class="w-full max-w-5xl mx-auto px-3 md:px-2">
         <p class="text-2xl mt-12 md:mt-16 lg:mt-24 py-3 text-white sm:text-2xl mb-4">
-            Have a question, feedback, or a unique idea you’d like to share? <br>   
+            Have a question, feedback, or a unique idea you’d love to contribute to society and build with us? <br>   
             Simply fill out the form below, and we’ll get back to you as soon as possible.
         </p>
         <form action="https://api.web3forms.com/submit" method="POST">

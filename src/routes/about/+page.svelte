@@ -27,7 +27,7 @@
     </h1>
     <div
         id="team"
-        class="w-full max-w-4xl flex flex-wrap my-12 gap-x-3 md:gap-x-5 lg:gap-x-10 gap-y-10"
+        class="w-full max-w-4xl flex flex-wrap my-12 gap-x-3 py-2.5 md:gap-x-5 lg:gap-x-10 gap-y-10"
     >
         <div class="max-w-[12rem]">
         <div
@@ -123,4 +123,3 @@
     font-size: 48px;
 }
 </style>
- 
