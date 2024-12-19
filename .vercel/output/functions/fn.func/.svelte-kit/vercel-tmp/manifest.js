@@ -10,7 +10,7 @@ return {
 	assets: new Set([".nojekyll","favicon.png","image-1.png","image.png","images/betterwork-{dark}.jpg","images/betterwork-{light}.png","images/deltacollab.jpg","images/opencv.png","images/profile-photo.png","images/time-bot.png","linkedin-logo.png","open-in-scihub-demo-recreated.mp4","open-in-scihub-mobile.png","retro.mp4","retro.webm","team/heramb.png","team/pankaj.png","X-twitter-logo.png"]),
 	mimeTypes: {".png":"image/png",".jpg":"image/jpeg",".mp4":"video/mp4",".webm":"video/webm"},
 	_: {
-		client: {"start":"_app/immutable/entry/start.BwpmWIdT.js","app":"_app/immutable/entry/app.Dx9ybk9l.js","imports":["_app/immutable/entry/start.BwpmWIdT.js","_app/immutable/chunks/entry.CyyAuu_h.js","_app/immutable/chunks/scheduler.Bv6yFrMh.js","_app/immutable/entry/app.Dx9ybk9l.js","_app/immutable/chunks/scheduler.Bv6yFrMh.js","_app/immutable/chunks/index.BHjnYSLr.js"],"stylesheets":[],"fonts":[],"uses_env_dynamic_public":false},
+		client: {"start":"_app/immutable/entry/start.C9i6Ofcv.js","app":"_app/immutable/entry/app.CM3vQ_Kj.js","imports":["_app/immutable/entry/start.C9i6Ofcv.js","_app/immutable/chunks/entry.3SaD1uzt.js","_app/immutable/chunks/scheduler.Bv6yFrMh.js","_app/immutable/entry/app.CM3vQ_Kj.js","_app/immutable/chunks/scheduler.Bv6yFrMh.js","_app/immutable/chunks/index.BHjnYSLr.js"],"stylesheets":[],"fonts":[],"uses_env_dynamic_public":false},
 		nodes: [
 			__memo(() => import('../output/server/nodes/0.js')),
 			__memo(() => import('../output/server/nodes/1.js'))
