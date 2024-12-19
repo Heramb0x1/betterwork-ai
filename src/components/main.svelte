@@ -9,7 +9,7 @@
     <section class="relative flex min-h-screen flex-col items-center justify-center">
         <section id="intro" class="flex flex-col items-center justify-center text-center px-4 pt-0 backdrop-blur-sm rounded-3xl py-48">
             <div class="max-w-2xl px-7 pt-24 mx-auto text-center">
-                <h2 class="text-base font-semibold text-sky-300 dark:text-pink-300 tracking-wide uppercase">
+                <h2 class="text-base font-semibold text-pink-300 tracking-wide uppercase">
                     Automate the Grind, Elevate the Results
                 </h2> 
                 <p class="mt-2 text-4xl font-extrabold text-white sm:text-5xl sm:tracking-tight lg:text-6xl">
@@ -42,14 +42,30 @@
                 </a>
             </div>
 
-
-            <div class= "w-auto h-auto relative px-20 py-48 rounded-lg">
-                <video muted autoplay loop preload="true" disablepictureinpicture on:loadstart={handleLoadStart}>
-                    <source src="./open-in-scihub-demo-recreated.mp4" type="video/mp4"/>
-                </video>
+            <div class="w-auto h-auto relative px-20 py-48 rounded-lg">
+                <!-- Desktop Video -->
+                <div class="hidden md:block">
+                    <video 
+                        muted 
+                        autoplay 
+                        loop 
+                        preload="true" 
+                        disablepictureinpicture 
+                        on:loadstart={handleLoadStart}
+                    >
+                        <source src="./open-in-scihub-demo-recreated.mp4" type="video/mp4"/>
+                    </video>
+                </div>
+            
+                <!-- Mobile Image -->
+                <div class="block md:hidden">
+                    <img 
+                        src="/open-in-scihub-mobile.png" 
+                        alt="Feature Demo" 
+                        class="rounded-lg shadow-lg w-full h-auto"
+                    />
+                </div>
             </div>
-
-
 
 
 
