@@ -1,8 +1,14 @@
 <script lang="ts">
     let handleLoadStart = (event: Event) => {
-    //   console.log('Video load started', event);
     const videoElement = event.target as HTMLVideoElement;
     videoElement.playbackRate = 2;
+    };
+        
+    let isLoading = true;
+    
+    
+    const handleVideoLoad = () => {
+        isLoading = false;
     };
 </script>
 <main class="flex flex-col min-h-screen text-white">
@@ -42,30 +48,37 @@
                 </a>
             </div>
 
-            <div class="w-auto h-auto relative px-20 py-48 rounded-lg">
-                <!-- Desktop Video -->
-                <div class="hidden md:block">
+            <div class="relative w-full max-w-6xl mx-auto">
+                <!-- Desktop -->
+                <div class="hidden md:block pt-9">
                     <video 
+                        class="w-full h-auto rounded-lg shadow-xl"
                         muted 
                         autoplay 
                         loop 
-                        preload="true" 
-                        disablepictureinpicture 
+                        preload="true"
+                        disablePictureInPicture
                         on:loadstart={handleLoadStart}
+                        on:canplay={handleVideoLoad}
                     >
-                        <source src="./open-in-scihub-demo-recreated.mp4" type="video/mp4"/>
+                        <source src="/open-in-scihub-demo-recreated.mp4" type="video/mp4" />
                     </video>
                 </div>
             
-                <!-- Mobile Image -->
-                <div class="block md:hidden">
+                <!-- Mobile -->
+                <div class="block md:hidden pt-9">
                     <img 
-                        src="/open-in-scihub-mobile.png" 
-                        alt="Feature Demo" 
-                        class="rounded-lg shadow-lg w-full h-auto"
+                        src="/open-in-scihub-mobile.png"
+                        alt="Product Demo"
+                        class="w-full h-auto rounded-lg shadow-xl"
+                        loading="lazy"
                     />
                 </div>
-            </div>
+                {#if isLoading}
+                <div class="absolute inset-0 flex items-center justify-center bg-slate-900/50 backdrop-blur-sm rounded-lg">
+                    <div class="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-white"></div>
+                </div>
+                {/if}
 
 
 
