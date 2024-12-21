@@ -22,7 +22,7 @@
                 </a>
 
                 <a 
-                    href="https://twitter.com/intent/follow?screen_name=betterworkAI" 
+                    href="https://twitter.com/intent/follow?screen_name=betterwork_hq" 
                     target="_blank"
                     class="text-slate-200"
                 >
