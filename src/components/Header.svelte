@@ -9,7 +9,7 @@
     };
 </script>
 <header
-    class={"sticky z-[10] top-0 duration-200 px-6 flex items-center justify-around" +
+    class={"sticky z-[10] top-0 duration-200 px-2 flex flex-shrink-0 items-center justify-around" +
         (y > 0 ? " py-4" : " py-6")}
     style="background-color: rgba(0, 0, 0, 0.1); backdrop-filter: blur(5px); border-bottom: 2px dashed #323232;"
     >

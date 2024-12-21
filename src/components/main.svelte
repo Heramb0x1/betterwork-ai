@@ -82,9 +82,16 @@
 
 
 
-            <div id="features" class="grid md:grid-cols-2 lg:grid-cols-3 gap-5 px-20 pt-84 py-44">
-                <h1  class="underline decoration-[#c8ff61] decoration-double decoration-[2px]  underline-offset-[5px] head-text text-6xl text-slate-200 sm:text-6xl font-bold mb-4">What We Provide</h1>
-                <div class="p-4 bg-black shadow border rounded-[10px]">
+                <div id="features" class="grid md:grid-cols-2 lg:grid-cols-3 gap-5 px-20 pt-84 py-44">
+                    <div class="flex flex-col items-start justify-start lg:col-span-1">
+                        <h1 class="font-sans inline stroke-black bg-clip-text text-6xl text-white sm:text-6xl text-left manrope font-bold mb-0 tracking-tight text-transparent">
+                            What We Provide
+                        </h1>
+                        <img src="/title-highlight-2.png" alt="head-text-2" />
+                    </div>
+                
+                    <!-- Other Cards -->
+                    <div class="p-4 bg-black shadow border rounded-[10px]">
                         <button class="p-2 bg-[#F5F8FF] rounded-[10px] cursor-default">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -97,7 +104,6 @@
                 
                         <p class="font-[Inter] text-sm text-[#8987A1] font-[400]">From streamlined tasks to impactful outcomes, 
                             betterwork.ai transforms how you work and ensures you get noticed..</p>
-                
                     </div>
                 
                     <div class="p-4 bg-black shadow border rounded-[10px]">
@@ -138,16 +144,14 @@
                     <div class="p-4 bg-black shadow border rounded-[10px] lg:col-span-2 flex justify-between gap-5">
                 
                         <div>
-                            <button class="p-3 py-4 bg-[#F5F8FF] rounded-[10px] cursor-default">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <circle cx="9" cy="12" r="3"></circle>
-                                    <circle cx="15" cy="12" r="3"></circle>
-                                    <path d="M8 16c-2 0-4 1-4 3"></path>
-                                    <path d="M16 16c2 0 4 1 4 3"></path>
-                                    <path d="M12 14c-2 0-4 1-4 3"></path>
-                                </svg>
-                
-                            </button>
+                                <button class="p-2 bg-[#F5F8FF] rounded-[10px] cursor-default">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M10 18H6C4.34315 18 3 16.6569 3 15V6C3 4.34315 4.34315 3 6 3H18C19.6569 3 21 4.34315 21 6V15C21 16.6569 19.6569 18 18 18H14M10 18V21M10 18H14M14 18V21M10 21H14M10 21H9M14 21H15"
+                                            stroke="#252432" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+            
+                                </button>
                 
                             <p class="font-[Inter] text-lg text-[#ffffff] my-5">Innovate Together!</p>
                 
@@ -239,6 +243,12 @@
         text-decoration-thickness: 60px;
         text-underline-offset: 16px;
         } 
+        .font2{
+            font-family: "DM Sans", serif;
+            font-optical-sizing: auto;
+            font-weight: 800;
+            font-style: normal;
+}
     </style>
 </main>
 
