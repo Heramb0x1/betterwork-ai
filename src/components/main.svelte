@@ -87,7 +87,7 @@
                         <h1 class="font-sans inline stroke-black bg-clip-text text-6xl text-white sm:text-6xl text-left manrope font-bold mb-0 tracking-tight text-transparent">
                             What We Provide
                         </h1>
-                        <img src="/title-highlight-2.png" alt="head-text-2" />
+                        <img src="/title-highlight-2.png" alt="head-text-2" style="width: 228px;" />
                     </div>
                 
                     <!-- Other Cards -->
