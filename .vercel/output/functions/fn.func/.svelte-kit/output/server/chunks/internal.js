@@ -1,4 +1,5 @@
 import { c as create_ssr_component, a as setContext, v as validate_component, m as missing_component } from "./ssr.js";
+import { a as afterUpdate } from "./ssr2.js";
 let base = "";
 let assets = base;
 const initial = { base, assets };
@@ -28,8 +29,6 @@ function set_read_implementation(fn) {
   read_implementation = fn;
 }
 function set_manifest(_) {
-}
-function afterUpdate() {
 }
 let prerendering = false;
 function set_building() {
@@ -111,6 +110,7 @@ const options = {
   embedded: false,
   env_public_prefix: "PUBLIC_",
   env_private_prefix: "",
+  hash_routing: false,
   hooks: null,
   // added lazily, via `get_hooks`
   preload_strategy: "modulepreload",
@@ -189,10 +189,23 @@ const options = {
 		<div class="error">
 			<span class="status">` + status + '</span>\n			<div class="message">\n				<h1>' + message + "</h1>\n			</div>\n		</div>\n	</body>\n</html>\n"
   },
-  version_hash: "4r446t"
+  version_hash: "ips3mf"
 };
 async function get_hooks() {
-  return {};
+  let handle;
+  let handleFetch;
+  let handleError;
+  let init;
+  let reroute;
+  let transport;
+  return {
+    handle,
+    handleFetch,
+    handleError,
+    init,
+    reroute,
+    transport
+  };
 }
 export {
   assets as a,

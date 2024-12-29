@@ -1,4 +1,5 @@
 import "./exports.js";
+import { o as onMount } from "./ssr2.js";
 const ATTR_REGEX = /[&"<]/g;
 const CONTENT_REGEX = /[&<]/g;
 function escape(value, is_attr = false) {
@@ -23,6 +24,19 @@ function get(key, parse = JSON.parse) {
 }
 const SNAPSHOT_KEY = "sveltekit:snapshot";
 const SCROLL_KEY = "sveltekit:scroll";
+const is_legacy = onMount.toString().includes("$$") || /function \w+\(\) \{\}/.test(onMount.toString());
+if (is_legacy) {
+  ({
+    data: {},
+    form: null,
+    error: null,
+    params: {},
+    route: { id: null },
+    state: {},
+    status: -1,
+    url: new URL("https://example.com")
+  });
+}
 get(SCROLL_KEY) ?? {};
 get(SNAPSHOT_KEY) ?? {};
 export {

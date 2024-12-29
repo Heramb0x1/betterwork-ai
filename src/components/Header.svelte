@@ -25,14 +25,14 @@
     </div>
 
     <div class="sm:flex items-center justify-center gap-4 hidden md:flex">
-        <a href="/about" class="px-4 text-slate-500 hover:text-gray-300 flex items-center justify-center">
+        <a href="/about" class="px-4 text-slate-100 hover:text-gray-500 flex items-center justify-center">
             About
         </a>
 
-        <a href="/blogs" class="px-4 text-slate-500 hover:text-gray-300 flex items-center justify-center">
+        <a href="/blogs" class="px-4 text-slate-100 hover:text-gray-500 flex items-center justify-center">
             Blogs
         </a>
-        <a href="/contact" class="px-4 text-slate-500 hover:text-gray-300 flex items-center justify-center">
+        <a href="/contact" class="px-4 text-slate-100 hover:text-gray-500 flex items-center justify-center">
             Contact Us
         </a>
     </div>
