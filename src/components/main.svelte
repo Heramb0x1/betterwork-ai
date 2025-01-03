@@ -39,9 +39,9 @@
                 </a>
                 
                 <a 
-                    href="#callout" 
-                    target="_blank" 
+                    href="https://github.com/betterwork-ai"
                     rel="noopener noreferrer" 
+                    target="_blank" 
                     class="px-6 py-2 rounded-full border-solid border-2 border-slate-800 bg-black text-white hover:bg-gray-900 transition-colors duration-200"
                 >
                     Get Started

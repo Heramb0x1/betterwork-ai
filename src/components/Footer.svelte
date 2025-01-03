@@ -2,7 +2,7 @@
     <div class="container mx-auto px-4">
         <div class="flex items-center justify-between">
             <div class="text-white">
-                © Copyright 2024 betterwork.ai
+                © 2025 betterwork.ai
             </div>
             
             <div class="flex items-center gap-6">
