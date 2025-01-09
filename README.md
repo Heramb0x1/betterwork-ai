@@ -14,8 +14,8 @@ The journey has begun, but the adventure is just getting started. Be a part of b
 ### 🌐 Connect With Us
 Stay updated and join the conversation on our social platforms:
 
-- **betterwork.ai (𝕏)**: [@betterworkai](https://x.com/betterwork_hq)
-- **betterwork.ai LinkedIn**: [betterwork.ai LinkedIn](https://linkedin.com/company/betterwork-ai)
+- **betterwork.ai (𝕏)**: [@betterwork.ai](https://x.com/betterwork_hq)
+- **betterwork.ai LinkedIn**: [@betterwork.ai](https://linkedin.com/company/betterwork-ai)
 - **My Instagram**: [@heramb.0x1](https://instagram.com/heramb.0x1)
 - **My 𝕏**: [@heramb_0x1](https://x.com/heramb0x1)
 - **My LinkedIn**: [Heramb Salunkhe](https://linkedin.com/in/heramb-salunkhe)
