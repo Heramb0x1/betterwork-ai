@@ -6,9 +6,6 @@
             </div>
             
             <div class="flex items-center gap-6">
-                <a href="https://www.buymeacoffee.com/heramb" target="_blank" class="text-slate-600">
-                    Support Us
-                </a>
 
                 <a href="/contact" class="text-slate-600">
                     Contact Us
